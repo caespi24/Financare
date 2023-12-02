@@ -1,0 +1,191 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+  width: .5rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #0093FB;
+  border-radius: 5rem;
+}
+
+nav{
+  background-color: #0093FB;
+  height: 100px;
+}
+
+p{
+  text-align: justify;
+}
+
+span{
+  color: #0093FB;
+}
+
+/* Home page */
+
+.logo-icon{
+  height: 70px;
+  margin: 1rem 0;
+}
+
+.fixed-action-btn{
+  position: absolute;
+  top: 15px;
+}
+
+.fixed-action-btn ul{
+  margin-right: -13rem;
+  margin-top: -.5rem;
+}
+
+.btn-floating.btn-menu i{
+  color: #0093FB;
+}
+
+.home{
+  margin-top: -1rem;
+}
+
+.slider .indicators .indicator-item.active{
+  background-color: #0093FB !important;
+}
+
+.nav-items{
+  margin: 1rem 0 0 0;
+  font-size: 25px;
+  transition: .2s ease;
+}
+
+.nav-items:hover{
+  background-color: transparent;
+  border-bottom: 3px solid white;
+  padding-bottom: .5rem;
+}
+
+.menu-icon{
+  margin: 1.5rem 0;
+}
+
+.about-panel{
+  height: 500px;
+  overflow-x: hidden;
+}
+
+.abt-btn{
+  background-color: #0093FB;
+  padding: 1rem;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.abt-btn:hover{
+  background-color: #006dba;
+}
+
+.carousel{
+  border: 3px solid #0093FB;
+  border-radius: 15px;
+  padding-bottom: 20rem;
+}
+
+.carousel-img{
+  margin-top: -5rem;
+  height: 350px;
+  width: 500px;
+}
+
+.hc-btn{
+  background-color: #0093FB;
+  padding: 1rem;
+  height: 60px;
+  width: 200px;
+  border-radius: 50px;
+  text-align: center;
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hc-btn:hover{
+  background-color: #006dba;
+}
+
+.glass-icon{
+  padding-right: 1rem;
+}
+
+.team-text{
+  background-color: #0093FB;
+  border-radius: 20px;
+  color: white;
+}
+
+.team-pic{
+  border: 5px solid #0093FB;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* About Us */
+.abt-container{
+  margin-top: 2rem;
+}
+.aboutus-img1{
+  background-image: url(images/ab1.jpg);
+  background-position: center;
+  height: 450px;
+  background-size: cover;
+  margin-top: 2.5rem;
+  border-radius: 10% 50% 50% 70%;
+}
+.aboutus-img2{
+  background-image: url(images/ab2.jpg);
+  background-position: center;
+  height: 450px;
+  background-size: cover;
+  margin-top: 2.5rem;
+  border-radius: 30% 20% 10% 70%;
+}
+.aboutus-img3{
+  background-image: url(images/ab3.jpg);
+  background-position: center;
+  height: 450px;
+  background-size: cover;
+  margin-top: 2.5rem;
+  border-radius: 50% 30% 70% 20%;
+}
+
+.aboutus-heading{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.aboutus-text{
+  padding: 0px 50px;
+  text-align: justify;
+}
+
+.first-container{
+  height: 500px;
+  overflow-x: auto;
+}
+
+
