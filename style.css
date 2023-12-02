@@ -33,6 +33,10 @@ span{
   color: #0093FB;
 }
 
+table thead tr th tbody td{
+  overflow-y: auto;
+}
+
 /* Home page */
 
 .logo-icon{
