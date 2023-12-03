@@ -192,33 +192,55 @@ table thead tr th tbody td{
   overflow-x: auto;
 }
 
-/* Edit color text inputs */
-/* label color */
-.input-field label {
-  color: #0093FB;
-}
-/* label focus color */
-.input-field input[type=text]:focus + label {
-  color: #0093FB;
-}
-/* label underline focus color */
-.input-field input[type=text]:focus {
-  border-bottom: 1px solid #0093FB;
-  box-shadow: 0 1px 0 0 #0093FB;
-}
-/* valid color */
-.input-field input[type=text].valid {
-  border-bottom: 1px solid #0093FB;
-  box-shadow: 0 1px 0 0 #0093FB;
-}
-/* invalid color */
-.input-field input[type=text].invalid {
-  border-bottom: 1px solid #0093FB;
-  box-shadow: 0 1px 0 0 #0093FB;
-}
-/* icon prefix focus color */
-.input-field .prefix.active {
-  color: #0093FB;
+.number{
+  background-color: #0093FB;
 }
 
+.submit-btn{
+  background-color: #fff;
+  color: #0093FB;
+  padding: 1rem;
+  height: 60px;
+  width: 130px;
+  border-radius: 30px;
+  text-align: center;
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-btn:hover{
+  background-color: #bababa;
+  color: #0579cd;
+}
+
+
+/* Edit color text inputs */
+input[type=tel]:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+/* label color */
+.input-field label {
+  color: #fff;
+}
+/* label focus color */
+.input-field input[type=tel]:focus + label {
+  color: #fff;
+}
+/* label underline focus color */
+.input-field input[type=tel]:focus {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #fff;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+  border-bottom: 1px solid #fff;
+}
 
